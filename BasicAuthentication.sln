@@ -3,7 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BasicDB", "BasicDB\BasicDB.sqlproj", "{EC3216B7-3019-42AC-909C-9ECB48307B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAPI2", "BasicAPI2\BasicAPI2.csproj", "{613AB63F-6E2E-42DC-A7EB-B7163BBC12EF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC3216B7-3019-42AC-909C-9ECB48307B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3216B7-3019-42AC-909C-9ECB48307B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3216B7-3019-42AC-909C-9ECB48307B1E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EC3216B7-3019-42AC-909C-9ECB48307B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3216B7-3019-42AC-909C-9ECB48307B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3216B7-3019-42AC-909C-9ECB48307B1E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{613AB63F-6E2E-42DC-A7EB-B7163BBC12EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613AB63F-6E2E-42DC-A7EB-B7163BBC12EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613AB63F-6E2E-42DC-A7EB-B7163BBC12EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613AB63F-6E2E-42DC-A7EB-B7163BBC12EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
